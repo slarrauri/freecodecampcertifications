@@ -1,0 +1,211 @@
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #FFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+	color: #0D0D0D;
+}
+
+/* Main content */
+#main {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+/*********************************************************************************/
+/* NAVBAR                                                                        */
+/*********************************************************************************/
+/* The navigation bar */
+
+/* The navigation bar */
+#navbar {
+	overflow: hidden;
+	background-color: #304269;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	height: 50px;
+	padding-left: 30px;
+}
+
+/* Links inside the navbar */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 21px;
+  text-decoration: none;
+  height: 50px;
+}
+
+/* Change background on mouse-over */
+#navbar a:hover {
+  background: #91BED4;
+  color: black;
+}
+
+/*********************************************************************************/
+/* WELCOME SECTION                                                               */
+/*********************************************************************************/
+
+#welcome-section {
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	display: table;
+	background-image: url("img/logo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-position: center; 
+
+}
+
+#welcome-section h1 {
+	font-size: 2rem;
+	text-align: center;
+	display: table-cell;
+  	vertical-align: middle;
+}
+/*********************************************************************************/
+/* PROJECTS SECTION                                                               */
+/*********************************************************************************/
+
+#projects {
+	padding: 1rem ;
+	text-align: center;
+	background-color: #F26101;
+}
+
+.project-tile {
+	font-size: 1.5rem;
+	margin: 0;
+	background-color: #91BED4;
+	width: 100%;
+}
+
+.column {
+	box-sizing: border-box;
+	float: left;
+	width: 30.33%;
+	padding: 10px;
+	margin: 1%;
+	background-color: #D9E8F5;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#projects img {
+	width: 100%;
+}
+
+#projects a {
+	width: 100%;
+	color: #304269;
+	text-decoration: none;
+}
+
+#projects a:hover {
+	color: #91BED4;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/*********************************************************************************/
+/* SOCIAL                                                                        */
+/*********************************************************************************/
+
+#social {
+	padding: 1rem ;
+	text-align: center;
+	background-color: #D9E8F5;
+}
+
+#social a {
+	color: #304269;
+}
+
+#social a:hover {
+	color: #91BED4;
+}
+
+
+ul.profile-link {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.profile-link li {
+	display: inline-block;
+	padding: 0 1rem 0 0;
+}
+
+ul.profile-link li:last-child {
+	padding-right: 0;
+}
+
+ul.profile-link li .icon:before {
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 736px) {
+
+	#social {
+		padding: 0.5rem ;
+	}
+
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+.copyright {
+	font-family: 'Roboto', sans-serif;
+	background:#1B1B1B;
+	padding:20px 0px 10px 0px;
+	font-weight:300;
+	font-size:14px;
+	color:#F2F2F2;
+	text-align: center;
+}
+
+.copyright a {
+	font-size:12px;
+	color:#F2921D;
+}
+
+/*********************************************************************************/
+/* FOOTER                                                                        */
+/*********************************************************************************/
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	background:#0D0D0D;
+	padding:20px 0;
+	font-weight:300;
+	font-size:14px;
+	color:#F2F2F2;
+	text-align: center;
+}
+
+footer a {
+	font-size: 12pt;
+	color:#D92B2B;
+}

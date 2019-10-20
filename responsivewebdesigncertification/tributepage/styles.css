@@ -1,0 +1,211 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+	
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #1B1B1B;
+	font-family: 'Mansalva', cursive;
+	font-size: 14pt;
+	font-weight: 400;
+	color: #0D0D0D;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin-top: 0;
+	font-size: 14pt;
+	font-weight: 400;
+}
+	
+a {
+	color: #F2921D;
+	font-size: 24pt;
+	font-weight: 400;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.container {
+	margin: 0px auto;
+	width: 100%;
+}
+
+/*********************************************************************************/
+/* Titles                                                                        */
+/*********************************************************************************/
+
+.title {
+	margin-bottom: 3.5em;
+}
+
+.title h2 {
+	font-size: 2.8em;
+	color: #261300;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+#header {
+	background: #FFF;
+	width: 100%;
+}
+
+#header-content {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+
+#title {
+	padding: 0em 0em;
+	text-align: center;
+}
+	
+#title h1 {
+	font-size: 3.5em;
+	color: #D92B2B;
+}
+	
+#title span {
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	color: #3C3C3C;
+}
+	
+#title .image {
+	display: inline-block;
+	margin-bottom: 2em;
+	padding: 1em;
+	background: #D92B2B;
+	border-radius: 50%;
+	font-size: 1.6em;
+	color: #FFF;
+	background-image: url("img/header.jpg");
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+}
+
+/*********************************************************************************/
+/* Tribute                                                                       */
+/*********************************************************************************/
+
+#tribute-info {
+	background: #D92B2B;
+	width: 100%;
+}
+
+#tribute {
+	overflow: hidden;
+	width: auto;
+	padding: 8em 80px 8em 80px;
+	text-align: center;
+	color: #F2F2F2;
+}
+	
+#tribute .content {
+	padding: 0em 8em;
+}
+	
+#tribute .title h2 {
+	color: rgba(255,255,255,1);
+}
+	
+#tribute a,
+#tribute strong {
+	color: rgba(255,255,255,0.6);
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+#img-div {
+	overflow: hidden;
+	padding: 0em 0em 8em 0em;
+	background: #FFF;
+}
+
+#image {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+#img-caption {
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* Footer request                                                                */
+/*********************************************************************************/
+
+#footer {
+	padding: 5em 0em 5em 0em;
+	text-align: center;
+}
+
+	
+#footer .title h2 {
+	color: #f2f2f2;
+}
+
+
+#footer .title .subtitle {
+	letter-spacing: normal;
+	text-transform: capitalize;
+	font-size: 1.6em;
+	color: rgba(255,255,255,0.2);
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+.copyright {
+	font-family: 'Roboto', sans-serif;
+	background:#0D0D0D;
+	padding:20px 0px 10px 0px;
+	font-weight:300;
+	font-size:12px;
+	color:#F2F2F2;
+	text-align: center;
+}
+
+.copyright a {
+	font-size:12px;
+	color:#F2921D;
+}
+
+/*********************************************************************************/
+/* FOOTER                                                                        */
+/*********************************************************************************/
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	background:#0D0D0D;
+	padding:20px 0;
+	font-weight:300;
+	font-size:12px;
+	color:#F2F2F2;
+	text-align: center;
+}
+
+footer a {
+	font-size: 12pt;
+	color:#D92B2B;
+}
+
+

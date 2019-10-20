@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey Form</title>
+<link href="https://fonts.googleapis.com/css?family=Mansalva|Roboto|Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<main id="main">
+	<div id="form-survey">
+		<div id="survey" class="container">
+			<div class="title">
+				<h1 id="title">Survay Form</h1>
+				<p id="description">Free Code Camp project</p>
+			</div>
+			<form id="survey-form" action="index.html" method="POST" accept-charset="utf-8">
+				<fieldset>
+				<label id="name-label" for="name">Name: </label>
+				<input type="text" id="name" name="name" placeholder="username" required="">
+				</fieldset>
+
+				<fieldset>
+				<label id="email-label" for="email">Email: </label>
+				<input type="email" id="email" name="email"  placeholder="Email address" required="">
+				</fieldset>
+
+				<fieldset>
+				<label id="number-label" for="age">Lucky: </label>
+				<input type="number" min="0" max="100" id="number" name="number"  placeholder="Lucky Number" required="">
+				</fieldset>
+
+				<fieldset>
+				<label id="dropdown" for="dropdown">Favorite Music:</label>
+				<select id="dropdown">
+				  <option value="rock">Rock</option>
+				  <option value="tecno">Tecno</option>
+				  <option value="trash">Trash</option>
+				  <option value="folk">Folk</option>
+				</select>
+				</fieldset>
+
+				<fieldset>
+				<label id="radio" for="gender">Gender:</label>
+				<br>
+				<input type="radio" name="gender" value="male" checked> Male
+				<input type="radio" name="gender" value="female"> Female
+				<input type="radio" name="gender" value="other"> Other 
+				</fieldset>
+
+				<fieldset>
+				<label id="checkbox" for="pet">Select Pet Type:</label>
+				<br>
+				<input type="checkbox" name="pet" value="Cat"> CATS
+				<input type="checkbox" name="pet" value="Dog"> DOGS
+				<input type="checkbox" name="pet" value="Other" checked> OTHERS
+				</fieldset>
+
+				<fieldset>
+				<label id="textarea" for="comments">Aditional Comments</label>
+				<textarea id="comments" name="comments"></textarea>
+				</fieldset>
+				<button type="submit" id="submit">Submit</button>
+
+			</form>
+		</div>
+	</div><!--#tribute-info -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="center">
+					Final Project Objetives at <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank">freeCodeCamp.org</a>
+				</div>
+				<div class="center">
+					Color Theme By <a href="https://color.adobe.com/Gonzo-Tribute-color-theme-13426960" target="_blank">color.adobe.com</a>
+				</div>
+				<div class="center">
+					Some Css Code from <a href="https://codepen.io/colorlib/pen/KVoZyv" target="_blank">Aigars Silkalns at codepen.io</a>
+				</div>
+				<div class="center">
+					Photos by <a href="https://www.google.com/search?q=hunter+thompson" target="_blank">Google Search</a>
+				</div>
+				<div class="center">
+					See this project at <a href="http://slarrauri.com/freeCodeCamp" target="_blank">github.com</a>
+				</div>
+			</div>
+		</div>
+	</div> <!-- .footer-area -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="center">
+					Developed by <a href="http://slarrauri.com" target="_blank">slarrauri.com</a> © 2019.
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</main><!--#main -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>

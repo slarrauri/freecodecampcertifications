@@ -1,0 +1,153 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #1B1B1B;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+	color: #0D0D0D;
+}
+
+h1, {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin-top: 0;
+	font-size: 14pt;
+	font-weight: 400;
+}
+	
+label {
+	margin: 10px;
+	padding: 0;
+}
+
+.container
+{
+	margin: 0px auto;
+	width: auto;
+}
+/*********************************************************************************/
+/* Titles                                                                        */
+/*********************************************************************************/
+
+.title {
+	margin-bottom: 1.5em;
+}
+	
+/*********************************************************************************/
+/* Form                                                                       */
+/*********************************************************************************/
+#form-survey {
+	background: #D92B2B;
+	width: 100%;
+}
+
+#survey {
+	overflow: hidden;
+	width: auto;
+	padding: 3em 30px 1em 30px;
+	text-align: center;
+	color: #F2F2F2;
+}
+
+/*********************************************************************************/
+/* Form Style                                                                    */
+/*********************************************************************************/
+
+#survey-form {
+  background: #F2F2F2;
+  padding: 25px;
+  margin: 10px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  color: #0D0D0D;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"] {
+  width: 50%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#survey-form select {
+  width: 44%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#survey-form textarea {
+  width: 90%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  height: 100px;
+  resize: none;
+}
+
+#survey-form button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+.copyright {
+	font-family: 'Roboto', sans-serif;
+	background:#0D0D0D;
+	padding:20px 0px 10px 0px;
+	font-weight:300;
+	font-size:12px;
+	color:#F2F2F2;
+	text-align: center;
+}
+
+.copyright a {
+	font-size:12px;
+	color:#F2921D;
+}
+/*********************************************************************************/
+/* FOOTER                                                                     */
+/*********************************************************************************/
+footer {
+	font-family: 'Roboto', sans-serif;
+	background:#0D0D0D;
+	padding:20px 0;
+	font-weight:300;
+	font-size:12px;
+	color:#F2F2F2;
+	text-align: center;
+}
+
+footer a {
+	font-size: 12pt;
+	color:#D92B2B;
+}

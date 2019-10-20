@@ -1,0 +1,33 @@
+{
+  "name": "freecodecampcertifications",
+  "version": "1.0.0",
+  "description": "Project to free code camp certifications",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slarrauri/freecodecampcertifications.git"
+  },
+  "keywords": [
+    "free",
+    "code",
+    "camp",
+    "certification"
+  ],
+  "author": "Sebastian Larrauri",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/slarrauri/freecodecampcertifications/issues"
+  },
+  "homepage": "https://github.com/slarrauri/freecodecampcertifications#readme"
+}
