@@ -7,19 +7,19 @@
 ### Responsive Web Design Certification
 
 * Build A Tribute Page
-https://slarrauri.com/freecodecampcertification/tributePage/
+https://slarrauri.com/fcc/responsivewebdesigncertification/tributepage/
 
 * Build A Survey Form
-https://slarrauri.com/freeCodeCamp/surveyForm/
+https://slarrauri.com/fcc/responsivewebdesigncertification/surveyform/
 
 * Build A Product Landing Page
-https://slarrauri.com/freeCodeCamp/landingPage/
+https://slarrauri.com/fcc/responsivewebdesigncertification/productlandingpage/
 
 * Build A Technical Documentation Page
-https://slarrauri.com/freeCodeCamp/technicalDocumentationPage/
+https://slarrauri.com/fcc/responsivewebdesigncertification/techinaldocumentationpage/
 
 * Build A Personal Portfolio Webpage
-https://slarrauri.com/freeCodeCamp/personalPortfolioWebpage/
+https://slarrauri.com/fcc/responsivewebdesigncertification/personalportfoliowebpage/
 
 ## CERTIFICATIONS
 
